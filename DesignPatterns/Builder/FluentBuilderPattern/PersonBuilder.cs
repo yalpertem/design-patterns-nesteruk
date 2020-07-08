@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.FluentBuilderPattern
+namespace DesignPatterns.Builder.FluentBuilderPattern
 {
     public abstract class PersonBuilder
     {

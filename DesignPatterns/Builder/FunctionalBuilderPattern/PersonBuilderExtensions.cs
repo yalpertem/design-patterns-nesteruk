@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.FunctionalBuilderPattern
+namespace DesignPatterns.Builder.FunctionalBuilderPattern
 {
     public static class PersonBuilderExtensions
     {

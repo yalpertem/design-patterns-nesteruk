@@ -1,4 +1,4 @@
-﻿using DesignPatterns.FunctionalBuilderPattern;
+﻿using DesignPatterns.Builder.FunctionalBuilderPattern;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -17,6 +17,16 @@ namespace DesignPatterns.UnitTests.FunctionalBuilderPattern
                 .Build();
 
             Assert.That(person.Name, Is.EqualTo("Yigitalp"));
+        }
+
+        [Test]
+        public void WorksAs_GiveAPosition_SetsThePosition()
+        {
+            var person = new PersonBuilder()
+                .WorksAs("Developer")
+                .Build();
+
+            Assert.That(person.Position, Is.EqualTo("Developer"));
         }
     }
 }

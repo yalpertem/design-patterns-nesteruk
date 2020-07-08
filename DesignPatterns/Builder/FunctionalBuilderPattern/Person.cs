@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.FluentBuilderPattern
+namespace DesignPatterns.Builder.FunctionalBuilderPattern
 {
-    public class Person
+   public class Person
     {
         public string Name { get; set; }
 
         public string Position { get; set; }
-
-        public static Builder New => new Builder();
 
         public Person()
         {

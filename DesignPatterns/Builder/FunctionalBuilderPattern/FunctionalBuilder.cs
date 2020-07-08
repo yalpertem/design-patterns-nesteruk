@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DesignPatterns.FunctionalBuilderPattern
+namespace DesignPatterns.Builder.FunctionalBuilderPattern
 {
     public abstract class FunctionalBuilder<TSubject, TSelf> 
         where TSelf : FunctionalBuilder<TSubject, TSelf>

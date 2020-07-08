@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace DesignPatterns.BuilderPattern
+namespace DesignPatterns.Builder.BuilderPattern
 {
     public class HtmlElement
     {
