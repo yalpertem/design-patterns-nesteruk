@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.SpecificationPattern
+namespace DesignPatterns.Specification
 {
     public class Product
     {
