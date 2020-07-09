@@ -1,10 +1,10 @@
-﻿using DesignPatterns.Builder.Example;
+﻿using DesignPatterns.Builder.Exercise;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.UnitTests.Builder.Example
+namespace DesignPatterns.UnitTests.Builder.Exercise
 {
     [TestFixture]
     public class CodeBuilderTests

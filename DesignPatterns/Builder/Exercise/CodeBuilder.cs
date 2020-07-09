@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.Builder.Example
+namespace DesignPatterns.Builder.Exercise
 {
     public class CodeBuilder
     {
