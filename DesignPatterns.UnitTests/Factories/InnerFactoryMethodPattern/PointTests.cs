@@ -1,9 +1,5 @@
 ﻿using DesignPatterns.Factories.InnerFactoryMethodPattern;
-using NuGet.Frameworks;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.UnitTests.Factories.InnerFactoryMethodPattern
 {

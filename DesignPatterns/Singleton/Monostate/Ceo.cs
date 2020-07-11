@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Singleton.Monostate
+﻿namespace DesignPatterns.Singleton.Monostate
 {
     public class Ceo
     {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Singleton.SingletonInDependencyInjection
+﻿namespace DesignPatterns.Singleton.SingletonInDependencyInjection
 {
     public interface IDatabase
     {

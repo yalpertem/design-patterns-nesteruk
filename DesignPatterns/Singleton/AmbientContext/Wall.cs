@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Singleton.AmbientContext
+﻿namespace DesignPatterns.Singleton.AmbientContext
 {
     public class Wall
     {
@@ -11,9 +7,9 @@ namespace DesignPatterns.Singleton.AmbientContext
         public Point End { get; set; }
 
         public int Height { get; set; }
+
         public Wall()
         {
-
         }
 
         public Wall(Point start, Point end)

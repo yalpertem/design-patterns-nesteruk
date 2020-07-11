@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Adapter.GenericValueAdapter
+﻿namespace DesignPatterns.Adapter.GenericValueAdapter
 {
     public class Vector2i : VectorOfInt<Dimensions.Two>
     {
-        public Vector2i() { }
+        public Vector2i()
+        {
+        }
 
-        public Vector2i(params int[] values) : base(values) { }
+        public Vector2i(params int[] values) : base(values)
+        {
+        }
     }
 }

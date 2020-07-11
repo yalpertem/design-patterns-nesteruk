@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Prototype.CopyConstructors
+﻿namespace DesignPatterns.Prototype.CopyConstructors
 {
     public class Address
     {

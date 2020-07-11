@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace DesignPatterns.Factories.Exercise
 {
     public class PersonFactory
     {
         private List<Person> _persons = new List<Person>();
+
         public Person CreatePerson(string name)
         {
             var person = new Person()

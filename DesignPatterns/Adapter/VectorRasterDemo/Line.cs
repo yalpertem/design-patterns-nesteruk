@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.Adapter.VectorRasterDemo
 {
@@ -8,7 +7,11 @@ namespace DesignPatterns.Adapter.VectorRasterDemo
     {
         public Point Start { get; set; }
         public Point End { get; set; }
-        public Line() { }
+
+        public Line()
+        {
+        }
+
         public Line(Point start, Point end)
         {
             Start = start;

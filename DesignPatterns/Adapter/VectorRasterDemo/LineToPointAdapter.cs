@@ -1,18 +1,17 @@
-﻿using Microsoft.VisualBasic;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
 
 namespace DesignPatterns.Adapter.VectorRasterDemo
 {
     public class LineToPointAdapter : IEnumerable<Point>
     {
         private static int count;
+
         private static Dictionary<int, List<Point>> _cache =
             new Dictionary<int, List<Point>>();
+
         public LineToPointAdapter(Line line)
         {
             var hashCode = line.GetHashCode();

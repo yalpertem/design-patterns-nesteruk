@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Prototype.Exercise
+﻿namespace DesignPatterns.Prototype.Exercise
 {
     public class Line
     {
         public Point Start, End;
 
-        public Line() { }
+        public Line()
+        {
+        }
 
         public Line(Point start, Point end)
         {
@@ -19,7 +17,7 @@ namespace DesignPatterns.Prototype.Exercise
         public Line DeepCopy()
         {
             return new Line(
-                new Point(Start), 
+                new Point(Start),
                 new Point(End));
         }
     }

@@ -3,14 +3,14 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 
 namespace DesignPatterns.Singleton.SingletonImplementation
 {
     public class SingletonDatabase : IDatabase
     {
         private readonly Dictionary<string, int> _capitals;
-        private static readonly Lazy<SingletonDatabase> _instance = 
+
+        private static readonly Lazy<SingletonDatabase> _instance =
             new Lazy<SingletonDatabase>(() =>
         {
             Count++;

@@ -1,7 +1,4 @@
 ﻿using DesignPatterns.Specification.Base;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.Specification
 {
@@ -13,6 +10,7 @@ namespace DesignPatterns.Specification
         {
             _color = color;
         }
+
         public bool IsSatisfied(Product t)
         {
             return t.Color == _color;

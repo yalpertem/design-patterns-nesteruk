@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Builder.FunctionalBuilderPattern
+﻿namespace DesignPatterns.Builder.FunctionalBuilderPattern
 {
-   public class Person
+    public class Person
     {
         public string Name { get; set; }
 

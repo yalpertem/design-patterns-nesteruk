@@ -1,10 +1,5 @@
-﻿using DesignPatterns.Builder.FluentBuilderPattern;
-using DesignPatterns.Singleton.AmbientContext;
+﻿using DesignPatterns.Singleton.AmbientContext;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DesignPatterns.UnitTests.Singleton.AmbientContext
 {
@@ -52,6 +47,5 @@ namespace DesignPatterns.UnitTests.Singleton.AmbientContext
             }
             Assert.That(house.Walls[2].Height, Is.EqualTo(200));
         }
-
     }
 }

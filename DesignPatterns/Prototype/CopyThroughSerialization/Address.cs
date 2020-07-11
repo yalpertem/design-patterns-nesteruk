@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.Prototype.CopyThroughSerialization
 {
@@ -11,7 +9,9 @@ namespace DesignPatterns.Prototype.CopyThroughSerialization
 
         public string Postcode { get; set; }
 
-        public Address() { }
+        public Address()
+        {
+        }
 
         public Address(string streetName, string postcode)
         {

@@ -1,8 +1,5 @@
 ﻿using DesignPatterns.Prototype.ExplicitDeepCopyInterface;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.UnitTests.Prototype.ExplicitDeepCopyInterface
 {

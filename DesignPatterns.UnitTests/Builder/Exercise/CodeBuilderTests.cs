@@ -1,8 +1,6 @@
 ﻿using DesignPatterns.Builder.Exercise;
 using NUnit.Framework;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.UnitTests.Builder.Exercise
 {
@@ -14,7 +12,7 @@ namespace DesignPatterns.UnitTests.Builder.Exercise
         {
             var cb = new CodeBuilder("Person").AddField("Name", "string").AddField("Age", "int");
             var code = cb.ToString();
-            var expectedResult = 
+            var expectedResult =
 @"public class Person
 {
   public string Name;

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.Factories.AbstractFactoryPatternOCP
 {
@@ -11,7 +10,6 @@ namespace DesignPatterns.Factories.AbstractFactoryPatternOCP
     {
         private List<Tuple<string, IHotDrinkFactory>> factories =
             new List<Tuple<string, IHotDrinkFactory>>();
-
 
         public HotDrinkMachine()
         {

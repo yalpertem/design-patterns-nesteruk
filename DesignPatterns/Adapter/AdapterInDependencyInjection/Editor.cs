@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace DesignPatterns.Adapter.AdapterInDependencyInjection
 {
@@ -15,7 +13,7 @@ namespace DesignPatterns.Adapter.AdapterInDependencyInjection
 
         public void ClickAll()
         {
-            foreach(var button in Buttons)
+            foreach (var button in Buttons)
             {
                 button.Click();
             }

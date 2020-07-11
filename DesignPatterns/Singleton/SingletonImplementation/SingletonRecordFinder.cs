@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Singleton.SingletonImplementation
+﻿namespace DesignPatterns.Singleton.SingletonImplementation
 {
     public class SingletonRecordFinder
     {
@@ -16,7 +12,7 @@ namespace DesignPatterns.Singleton.SingletonImplementation
         public int GetTotalPopulation(string[] names)
         {
             int result = 0;
-            foreach(var name in names)
+            foreach (var name in names)
             {
                 result += SingletonDatabase.Instance.GetPopulation(name);
             }

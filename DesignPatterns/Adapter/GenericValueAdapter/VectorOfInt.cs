@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Adapter.GenericValueAdapter
+﻿namespace DesignPatterns.Adapter.GenericValueAdapter
 {
     public class VectorOfInt<D> : Vector<VectorOfInt<D>, int, D>
         where D : IInteger, new()
     {
-        public VectorOfInt() { }
+        public VectorOfInt()
+        {
+        }
 
-        public VectorOfInt(params int[] values) : base(values) { }
+        public VectorOfInt(params int[] values) : base(values)
+        {
+        }
 
         public static VectorOfInt<D> operator +(VectorOfInt<D> lhs, VectorOfInt<D> rhs)
         {

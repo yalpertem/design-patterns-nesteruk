@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Adapter.Exercise
+﻿namespace DesignPatterns.Adapter.Exercise
 {
     public class SquareToRectangleAdapter : IRectangle
     {
         private readonly Square _square;
+
         public SquareToRectangleAdapter(Square square)
         {
             _square = square;

@@ -1,16 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Adapter.GenericValueAdapter
+﻿namespace DesignPatterns.Adapter.GenericValueAdapter
 {
     public class VectorOfFloat<TSelf, D> : Vector<TSelf, float, D>
         where D : IInteger, new()
         where TSelf : Vector<TSelf, float, D>, new()
     {
-        public VectorOfFloat() { }
+        public VectorOfFloat()
+        {
+        }
 
-        public VectorOfFloat(params float[] values) : base(values) { }
+        public VectorOfFloat(params float[] values) : base(values)
+        {
+        }
 
         public static VectorOfFloat<TSelf, D> operator +(VectorOfFloat<TSelf, D> lhs, VectorOfFloat<TSelf, D> rhs)
         {

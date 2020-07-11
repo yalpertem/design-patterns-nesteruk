@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Adapter.GenericValueAdapter
+﻿namespace DesignPatterns.Adapter.GenericValueAdapter
 {
     public static class Dimensions
     {

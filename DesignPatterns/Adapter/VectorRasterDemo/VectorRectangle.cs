@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Numerics;
-using System.Text;
-
-namespace DesignPatterns.Adapter.VectorRasterDemo
+﻿namespace DesignPatterns.Adapter.VectorRasterDemo
 {
     public class VectorRectangle : VectorObject
     {

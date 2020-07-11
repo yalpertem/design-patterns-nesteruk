@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Prototype.ExplicitDeepCopyInterface
+﻿namespace DesignPatterns.Prototype.ExplicitDeepCopyInterface
 {
     public class Address : IPrototype<Address>
     {

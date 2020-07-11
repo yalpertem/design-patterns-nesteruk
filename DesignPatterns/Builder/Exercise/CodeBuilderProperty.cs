@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Builder.Exercise
+﻿namespace DesignPatterns.Builder.Exercise
 {
     internal class CodeBuilderProperty
     {

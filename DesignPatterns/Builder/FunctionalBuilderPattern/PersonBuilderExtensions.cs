@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Builder.FunctionalBuilderPattern
+﻿namespace DesignPatterns.Builder.FunctionalBuilderPattern
 {
     public static class PersonBuilderExtensions
     {

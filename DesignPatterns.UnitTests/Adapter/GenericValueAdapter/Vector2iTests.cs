@@ -1,8 +1,5 @@
 ﻿using DesignPatterns.Adapter.GenericValueAdapter;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.UnitTests.Adapter.GenericValueAdapter
 {

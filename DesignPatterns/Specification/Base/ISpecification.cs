@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Specification.Base
+﻿namespace DesignPatterns.Specification.Base
 {
     /// <summary>
     /// An example for "O" of "SOLID

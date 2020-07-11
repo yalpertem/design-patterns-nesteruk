@@ -1,10 +1,6 @@
 ﻿using Autofac;
 using DesignPatterns.Singleton.SingletonInDependencyInjection;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Security.Claims;
-using System.Text;
 
 namespace DesignPatterns.UnitTests.Singleton.SingletonInDependencyInjection
 {
@@ -18,7 +14,7 @@ namespace DesignPatterns.UnitTests.Singleton.SingletonInDependencyInjection
             cb.RegisterType<OrdinaryDatabase>().As<IDatabase>().SingleInstance();
             cb.RegisterType<ConfigurableRecordFinder>();
 
-            using(var c = cb.Build())
+            using (var c = cb.Build())
             {
                 var rf = c.Resolve<ConfigurableRecordFinder>();
                 var total = rf.GetTotalPopulation(new string[] { "Seoul" });

@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 
 namespace DesignPatterns.Factories.AbstractFactoryMethodPattern
 {
     public class Foo
     {
         public string Bar { get; set; }
+
         private Foo(string bar)
         {
             Bar = bar;

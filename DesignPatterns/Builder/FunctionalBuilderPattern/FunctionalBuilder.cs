@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace DesignPatterns.Builder.FunctionalBuilderPattern
 {
-    public abstract class FunctionalBuilder<TSubject, TSelf> 
+    public abstract class FunctionalBuilder<TSubject, TSelf>
         where TSelf : FunctionalBuilder<TSubject, TSelf>
         where TSubject : new()
     {
@@ -26,7 +25,7 @@ namespace DesignPatterns.Builder.FunctionalBuilderPattern
                 action(p);
                 return p;
             });
-            return (TSelf) this;
+            return (TSelf)this;
         }
     }
 }

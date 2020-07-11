@@ -1,8 +1,5 @@
 ﻿using DesignPatterns.Builder.FacetedBuilderPattern;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.UnitTests.Builder.FacetedBuilderPattern
 {
@@ -32,6 +29,5 @@ namespace DesignPatterns.UnitTests.Builder.FacetedBuilderPattern
             Person person = pb.Works.Earning(100);
             Assert.That(person.AnnualIncome, Is.EqualTo(100));
         }
-
     }
 }

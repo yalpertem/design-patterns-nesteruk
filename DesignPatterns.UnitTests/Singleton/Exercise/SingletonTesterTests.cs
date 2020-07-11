@@ -1,9 +1,5 @@
 ﻿using DesignPatterns.Singleton.Exercise;
-using DesignPatterns.Singleton.Monostate;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.UnitTests.Singleton.Monostate
 {
@@ -25,6 +21,5 @@ namespace DesignPatterns.UnitTests.Singleton.Monostate
                 SingletonTesterData.GetNonSingletonObject);
             Assert.That(isSingleton, Is.EqualTo(false));
         }
-
     }
 }

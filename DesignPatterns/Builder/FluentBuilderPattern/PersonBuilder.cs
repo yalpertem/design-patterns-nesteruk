@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Builder.FluentBuilderPattern
+﻿namespace DesignPatterns.Builder.FluentBuilderPattern
 {
     public abstract class PersonBuilder
     {
@@ -12,6 +8,5 @@ namespace DesignPatterns.Builder.FluentBuilderPattern
         {
             return person;
         }
-
     }
 }

@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Prototype.Exercise
+﻿namespace DesignPatterns.Prototype.Exercise
 {
     public class Point
     {
         public int X, Y;
 
-        public Point() { }
+        public Point()
+        {
+        }
 
         public Point(int x, int y)
         {
@@ -23,7 +21,3 @@ namespace DesignPatterns.Prototype.Exercise
         }
     }
 }
-
-
-
-

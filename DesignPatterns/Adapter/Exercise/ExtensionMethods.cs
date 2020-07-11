@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Adapter.Exercise
+﻿namespace DesignPatterns.Adapter.Exercise
 {
     public static class ExtensionMethods
     {

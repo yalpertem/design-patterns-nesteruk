@@ -2,10 +2,7 @@
 using Autofac.Features.Metadata;
 using DesignPatterns.Adapter.AdapterInDependencyInjection;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace DesignPatterns.UnitTests.Adapter.AdapterInDependencyInjection
 {
@@ -50,7 +47,7 @@ namespace DesignPatterns.UnitTests.Adapter.AdapterInDependencyInjection
             using (var c = b.Build())
             {
                 var editor = c.Resolve<Editor>();
-                foreach(var button in editor.Buttons)
+                foreach (var button in editor.Buttons)
                 {
                     var buttonName = button.PrintMe();
                     Assert.That(buttonName, Is.AnyOf(expectedNames));
