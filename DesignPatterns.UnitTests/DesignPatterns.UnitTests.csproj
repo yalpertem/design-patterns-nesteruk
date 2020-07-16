@@ -25,4 +25,8 @@
     <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Iterator\ArrayBackedProperties\" />
+  </ItemGroup>
+
 </Project>
